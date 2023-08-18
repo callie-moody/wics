@@ -1,6 +1,6 @@
 h1 {
     color: black ;
-    font-size: 40px;
+    font-size: 37px;
     padding-top: 100px;
     width: 100%;
     font-family: 'Lucida';
@@ -9,8 +9,13 @@ h1 {
   }
 
 body {
-    background-color: whitesmoke;  
+     margin-top: 15%;
+
 /*     text-align: center;   */
+}
+
+html{
+  background-color: whitesmoke; 
 }
 
 /* Dropdown Button */
@@ -68,10 +73,11 @@ body {
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 .wics {
-  position: absolute;
-  scale: 50%; 
-  right: 3%;
-  top: 3%;
+ 
+  scale: 38%; 
+  position:absolute;
+  top: -60px;
+  left: -133px;
   border-radius: 15px;
 }
 
@@ -146,6 +152,12 @@ h2{
 
 h1{
   padding: 0%;
+}
+
+.posts{
+  display:flex;
+  flex-direction: row;
+  overflow: auto;
 }
 
 .events{
